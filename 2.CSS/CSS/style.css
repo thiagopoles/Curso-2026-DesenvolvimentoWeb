@@ -1,6 +1,7 @@
 /* 4. CSS Externo */
 body {
     padding-bottom: 500px;
+    background-color: rgb(245, 232, 213);
 }
 
 h3 {
@@ -13,4 +14,70 @@ h3 {
 .paragrafo {
     background-color: bisque;
     color: blue;   
+}
+
+/* ID */
+
+#titulo-exclusivo {
+    text-align: center;
+    color: aqua;
+}
+
+/* ordem das regras */
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* Nome de cores */
+.color-name {
+    color: brown;
+}
+
+/* HEX */
+.hex {
+    color: #55a389;
+}
+
+/* RGB */
+.RGB {
+    color: rgb(255, 0, 0);
+}
+
+/* RGBa */
+.rgba {
+    color: rgba(100, 199, 45, 0.3);
+}
+
+/* HSL */
+.hsl {
+    color: hsl(100, 20%, 50%);
+}
+
+/* BG imagem */
+.bg-imagem {
+    background-image: url(../img/noite-estrelada.jpg);
+    padding: 30px;
+    color: blanchedalmond;
+}
+
+/* Centralizando BG img */
+.nao-centralizado-bg,
+.centralizado-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/johnmarston.jpg);
+}
+
+.centralizado-bg {
+    background-position: center;
+    background-size: cover;
+    margin-top: 5px;
 }
