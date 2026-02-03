@@ -37,6 +37,11 @@ body {
     margin-top: 30px;
 }
 
+.imagem-principal img {
+    height: 550px;
+    width: auto;
+}
+
 /* Biografia */
 .container-biografia {
     padding: 25px 0;
