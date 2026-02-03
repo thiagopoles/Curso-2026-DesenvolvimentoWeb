@@ -11,6 +11,7 @@ body {
     position: relative;
     margin: 50px auto;
     padding: 20px 50px;
+    border-radius: 30px;
 }
 
 .negrito {
@@ -20,4 +21,94 @@ body {
 /* Header */
 .header {
     text-align: center;
+}
+
+.titulo-principal {
+    font-size: 40px;
+}
+
+.texto-principal {
+    font-style: italic;
+}
+
+/* Imagem Principal */
+.imagem-principal {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Biografia */
+.container-biografia {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+
+/* Citação */
+.container-citacao {
+    background-color: #DDD;
+    padding: 30px;
+}
+
+.container-citacao blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container-citacao p {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Curiosidades */
+.container-curiosidades {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+
+.container-curiosidades li {
+    height: 30px;
+}
+
+/* Imagem 02 */
+.imagem-secundaria {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Mais Imformações */
+.container-maisInformacoes {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+
+.container-maisInformacoes h2 {
+    font-size: 30px;
+}
+
+.container-maisInformacoes p {
+    font-size: 18px;
+}
+
+.container-maisInformacoes a {
+    background-color: #d3c528;;
+    color: #fff;
+    border-radius: 8px;
+    padding: 3px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.container-maisInformacoes a:hover {
+    background-color: #a00000;
+    border-radius: 8px;
+    padding: 3px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
