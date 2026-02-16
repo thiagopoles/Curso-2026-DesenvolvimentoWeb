@@ -101,7 +101,8 @@ body {
 }
 
 .container-maisInformacoes a {
-    background-color: #d3c528;;
+    background-color: #d3c528;
+    ;
     color: #fff;
     border-radius: 8px;
     padding: 3px;
