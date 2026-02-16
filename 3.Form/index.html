@@ -10,13 +10,144 @@
   <body>
     <h2>Formulários HTML</h2>
 
-    <!-- Primeiro Formulário -->
-     <!-- Atributos do Formulário -->
+    <!-- 1. Primeiro Formulário -->
+    <!-- 2. Atributos do Formulário -->
     <form action="registro.php" method="POST">
       <div>
         <label>Nome:</label>
         <input type="text" />
       </div>
+      <br />
+
+      <!-- 3. Atributo name -->
+      <div>
+        <!-- 4. Atributo Label -->
+        <label for="age">Idade:</label>
+        <input type="text" name="age" />
+      </div>
+      <br />
+
+      <!-- 5. Select -->
+      <div>
+        <label for="proficao">Selecione a sua Profissão: </label>
+        <select name="proficao">
+          <option value="programador">Programador</option>
+          <option value="design">Design</option>
+          <option value="contador">Contador</option>
+        </select>
+      </div>
+      <br />
+
+      <!-- 6. Atributo Selected -->
+      <div>
+        <label for="contrato">Você leu os termos de contrato?</label>
+        <select name="contrato">
+          <option value="sim">Sim</option>
+          <option value="nao" selected>Não</option>
+        </select>
+      </div>
+      <br />
+
+      <!-- 7. Multiplas Opções -->
+      <div>
+        <label for="itens">Selecione os itens desejador:</label>
+        <select name="itens" multiple>
+          <option value="pera">Pera</option>
+          <option value="feijao">Feijão</option>
+          <option value="alface">Alface</option>
+          <option value="arroz">Arrox</option>
+        </select>
+      </div>
+      <br />
+
+      <!-- 8. Textarea -->
+      <div>
+        <label for="comentario"
+          >Escreva abaixo o que você achou do post:
+        </label>
+        <textarea name="comentario"></textarea>
+      </div>
+      <br />
+
+      <!-- 9. fieldset e legend -->
+      <div>
+        <fieldset>
+          <legend>Preencha as suas informações:</legend>
+          <label for="PrimeiroNome">Nome:</label>
+          <input type="text" name="PrimeiroNome" />
+
+          <label for="Sobrenome">Sobrenome:</label>
+          <input type="text" name="Sobrenome" />
+        </fieldset>
+      </div>
+      <br />
+
+      <!-- 10. datalist -->
+      <div>
+        <label for="sabor">Escolha seu sabor:</label>
+        <input type="text" list="sabor" name="sabor" />
+
+        <datalist id="sabor">
+          <option value="Cereja"></option>
+          <option value="Morango"></option>
+          <option value="Chocolate"></option>
+          <option value="Creme"></option>
+        </datalist>
+      </div>
+      <br />
+
+      <!-- 11. Senha -->
+      <div>
+        <label for="senha">Digite a sua senha:</label>
+        <input type="password" name="senha" />
+      </div>
+      <br />
+
+      <!-- 12. radio button -->
+      <div>
+        <label for="ModeloDeCarro">Escolha o modelo do seu carro:</label>
+        <div class="radio">
+          <input type="radio" value="bmw" name="ModeloDeCarro" />
+          <label for="bmw">BMW</label>
+        </div>
+
+        <div class="radio">
+          <input type="radio" value="vw" name="ModeloDeCarro" />
+          <label for="vw">Volkswagen</label>
+        </div>
+
+        <div class="radio">
+          <input type="radio" value="gm" name="ModeloDeCarro" />
+          <label for="gm">Chevrolet</label>
+        </div>
+      </div>
+      <br />
+
+      <!-- 13. checkbox-->
+      <div>
+        <label for="opcoes">Opcionais do carro:</label>
+        <div class="radio">
+          <input type="checkbox" name="opcoes[]" value="PneusGrandes" />
+          <label for="PneusGrandes">Pneus Grandes</label>
+        </div>
+
+        <div class="radio">
+          <input type="checkbox" name="opcoes[]" value="ParachoqueGrande" />
+          <label for="ParachoqueGrande">Parachoque Grande</label>
+        </div>
+
+        <div class="radio">
+          <input type="checkbox" name="opcoes[]" value="RodaGrande" />
+          <label for="RodaGrande">Roda Aro 17</label>
+        </div>
+      </div>
+      <br />
+
+      <!-- 1. Resetar Form -->
+      <input type="reset" value="limpar" />
+
+      <!-- 1. Envio de Form -->
+      <input type="submit" value="enviar" />
     </form>
   </body>
 </html>
