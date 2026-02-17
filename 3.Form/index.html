@@ -29,7 +29,7 @@
 
       <!-- 5. Select -->
       <div>
-        <label for="proficao">Selecione a sua Profissão: </label>
+        <label for="proficao">Selecione a sua Profissão:</label>
         <select name="proficao">
           <option value="programador">Programador</option>
           <option value="design">Design</option>
@@ -62,9 +62,7 @@
 
       <!-- 8. Textarea -->
       <div>
-        <label for="comentario"
-          >Escreva abaixo o que você achou do post:
-        </label>
+        <label for="comentario">Escreva abaixo o que você achou do post:</label>
         <textarea name="comentario"></textarea>
       </div>
       <br />
@@ -143,10 +141,70 @@
       </div>
       <br />
 
-      <!-- 1. Resetar Form -->
+      <!-- 14. Input Datas -->
+      <div>
+        <label for="DataDeAniversario">Data de Nascimento:</label>
+        <input type="date" name="DataDeAniversario" />
+      </div>
+      <br />
+
+      <!-- 15. Arquivos -->
+      <div>
+        <label for="imagem">Insira a sua imagem:</label>
+        <input type="file" name="imagem" />
+      </div>
+      <br />
+
+      <!-- 16. Números -->
+      <div>
+        <label for="salario">Quanto você ganha no seu emprego atual?</label>
+        <input type="number" name="salario" />
+      </div>
+      <br />
+
+      <!-- 17. E-mails -->
+      <div>
+        <label for="email">Digite o seu E-mail:</label>
+        <input type="email" name="email" />
+      </div>
+      <br />
+
+      <!-- 18. Atributo value -->
+      <div>
+        <label for="valor">Digite algum valor:</label>
+        <input type="text" value="O meu valor é esse " name="valor" />
+      </div>
+      <br />
+
+      <!-- 19. Atributo didabled -->
+      <div>
+        <p>Tente mudar o valor:</p>
+        <input type="text" value="Nâo precisa preencher" disabled />
+      </div>
+      <br />
+
+      <!-- 20. Atributo placeholder -->
+      <div>
+        <label for="EmpregoAtual">Digite a sua profissão:</label>
+        <input
+          type="text"
+          name="EmpregoAtual"
+          placeholder="No que você está trabalhando agora?"
+        />
+      </div>
+      <br />
+
+      <!-- 21. required (campos obrigatórios) -->
+      <div>
+        <label for="AnoNascimento">Ano de nascimento:</label>
+        <input type="text" placeholder="Digite o ano em que você nasceu!" required>
+      </div>
+      <br />
+
+      <!-- 22. Resetar Form -->
       <input type="reset" value="limpar" />
 
-      <!-- 1. Envio de Form -->
+      <!-- 23. Envio de Form -->
       <input type="submit" value="enviar" />
     </form>
   </body>
