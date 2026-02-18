@@ -9,10 +9,10 @@
 
   <body>
     <div class="container">
-      <div class="cabecalho">
+      <div class="header">
         <h3>Cadastre seu veículo para vende-lo!</h3>
       </div>
-      <div class="for-container">
+      <div class="form-container">
         <div class="form-cabecalho">
           <p>Formulário</p>
         </div>
@@ -22,18 +22,24 @@
             Descreva as caracteríristicas e marque os opcionais que ele possui
           </p>
         </div>
-        <div class="box-input">
-          <label for="title"
-            >Título do anúncio <span class="campo-obrigatorio">*</span></label
-          >
-          <input
-            type="text"
-            name="titulo"
-            id="titulo"
-            class="block"
-            placeholder="Um título para anunciar o seu carro"
-          />
-        </div>
+        <form>
+          <div class="box-input">
+            <label for="title"
+              >Título do anúncio <span class="campo-obrigatorio">*</span></label
+            >
+            <input
+              type="text"
+              name="titulo"
+              id="titulo"
+              class="block"
+              placeholder="Um título para anunciar o seu carro"
+              minlength="1"
+              maxlength="30"
+              required
+            />
+          </div>
+          <input type="submit" value="Enviar" />
+        </form>
       </div>
     </div>
   </body>

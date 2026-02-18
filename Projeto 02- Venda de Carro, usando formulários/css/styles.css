@@ -1,3 +1,60 @@
+/* Resete */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-    margin-bottom: 200px;
+    background-color: #ffedd4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+}
+
+
+p,
+label {
+    color: #444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+/* Escolher o tipo de input */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"] {
+    width: 400px;
+}
+
+/* cabeçalho da página */
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: #7f4a00;
+}
+
+.header h3 {
+    color: #fff;
+    margin-top: 0;
+}
+
+/* form container */
+.form-container {
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
 }
