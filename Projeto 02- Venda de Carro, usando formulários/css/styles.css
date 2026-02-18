@@ -40,6 +40,8 @@ textarea {
     margin: 0 auto;
 }
 
+
+
 textarea {
     padding: 10px 5px;
 }
@@ -62,7 +64,7 @@ textarea {
 .form-container {
     background-color: #fdfdfd;
     border-radius: 30px;
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
     position: relative;
     top: -62px;
@@ -129,6 +131,13 @@ textarea {
 }
 
 /* botão / submit */
+.bnts-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
 .btn-submit {
     background-color: #7f4a00;
     color: #fff;
