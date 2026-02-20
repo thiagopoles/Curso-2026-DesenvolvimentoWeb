@@ -162,7 +162,8 @@ nav {
 
 .plans-container {
     display: flex;
-    justify-content: space-between; /* espaça os itens igualmente na tela */
+    justify-content: space-between;
+    /* espaça os itens igualmente na tela */
     width: 90%;
     margin: 50px auto 0;
 }
@@ -271,4 +272,141 @@ nav {
 
 .searchdomain-container input[type="submit"]:hover {
     opacity: 0.8;
+}
+
+/* Contact form */
+.contact-container {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-radius: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 600px;
+    height: 120px;
+}
+
+.contact-container input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.contact-container input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0 100px;
+}
+
+/* responcividade */
+
+/* small laptops: a partir de 1100px */
+@media (max-width: 1100px) {
+
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/* tablets: 900px */
+@media (max-width: 900px) {
+
+    .banner-box {
+        width: 500px;
+        padding: 20px;
+    }
+
+    .searchdomain-container {
+        padding: 2rem 4rem;
+    }
+}
+
+/* Celular: 576px */
+@media (max-width: 576px) {
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .banner-box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .services-container ul  {
+        flex-direction: column;
+    }
+
+    .pricing-container {
+        width: 90%;
+        margin: 0 auto ;
+
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 28px;
+    }
+
+    .searchdomain-container p {
+        font-size: 18px;
+    }
+
+    .searchdomain-container input[type="text"] {
+        width: 100%;
+    }
+    
+    .contact-container {
+        padding: 2rem 3rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
