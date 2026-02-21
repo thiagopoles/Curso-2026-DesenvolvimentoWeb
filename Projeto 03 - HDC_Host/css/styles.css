@@ -367,13 +367,13 @@ footer {
         margin: 0 auto;
     }
 
-    .services-container ul  {
+    .services-container ul {
         flex-direction: column;
     }
 
     .pricing-container {
         width: 90%;
-        margin: 0 auto ;
+        margin: 0 auto;
 
     }
 
@@ -399,7 +399,7 @@ footer {
     .searchdomain-container input[type="text"] {
         width: 100%;
     }
-    
+
     .contact-container {
         padding: 2rem 3rem;
     }
